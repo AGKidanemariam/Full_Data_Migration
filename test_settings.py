@@ -1,0 +1,30 @@
+from config.settings import (
+    BASE_DIR,
+    DATA_DIR,
+    RAW_ZIP_DIR,
+    EXTRACTED_DIR,
+    ARCHIVE_DIR,
+    REJECTED_DIR, 
+    STAGED_DIR,
+    PROCESSED_DIR,
+    LOG_DIR,
+    METADATA_DIR,
+    MANIFEST_FILE,
+    HASH_FILE,
+    DATABASE_URL,
+)
+
+
+print(f"BASE_DIR: {BASE_DIR}")
+print(f"DATA_DIR: {DATA_DIR}")
+print(f"RAW_ZIP_DIR: {RAW_ZIP_DIR}")
+print(f"EXTRACTED_DIR: {EXTRACTED_DIR}")
+print(f"ARCHIVE_DIR: {ARCHIVE_DIR}")
+print(f"REJECTED_DIR: {REJECTED_DIR}")
+print(f"STAGED_DIR: {STAGED_DIR}")
+print(f"PROCESSED_DIR: {PROCESSED_DIR}")
+print(f"LOG_DIR: {LOG_DIR}")
+print(f"METADATA_DIR: {METADATA_DIR}")
+print(f"MANIFEST_FILE: {MANIFEST_FILE}")
+print(f"HASH_FILE: {HASH_FILE}")
+print(f"DATABASE_URL: {DATABASE_URL}")
