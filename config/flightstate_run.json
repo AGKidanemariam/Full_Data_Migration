@@ -1,0 +1,27 @@
+{
+  "config_version": 1,
+  "run_key": "flightstate-demo-2026-06-27-131922",
+  "experiment_date": "2026-06-27",
+  "source_timezone": "UTC",
+  "longitude_convention": "west_positive",
+  "time_policy": {
+    "mode": "utc_clock",
+    "utc_date": "2026-06-27",
+    "midnight_rollover": "reject"
+  },
+  "missing_values": {
+    "WEIGHT": [
+      "-999999.0"
+    ],
+    "THRUSTPERCENT": [
+      "-999999.0"
+    ],
+    "THRUST": [
+      "-999999.0"
+    ],
+    "FLIGHT_PHASE": [
+      "Bad index value"
+    ]
+  },
+  "notes": "Demo profile for the uploaded June 27 FlightState log. Uses UTC_TIME; longitude is interpreted west-positive from ZOA/California scenario context. Placeholder values map to NULL; originals remain in raw_fields. Confirm source conventions before broader deployment."
+}

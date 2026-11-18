@@ -10,7 +10,6 @@ def main():
     # Convert the entered path from a string to a Path object
     file_path = Path(file_path)
 
-
     # Parse the original MACS FlightState file
     parser = MacsParser()
     document = parser.parse(file_path, "FlightState")

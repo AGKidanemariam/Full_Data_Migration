@@ -1,0 +1,8 @@
+{
+  "jobs": [
+    {
+      "input": "data/extracted/TH-Saho_Macs_FlightState_view_2_2026-06-27_13-19-22/TH-Saho_Macs_FlightState_view_2_2026-06-27_13-19-22",
+      "run_config": "config/flightstate_run.json"
+    }
+  ]
+}
