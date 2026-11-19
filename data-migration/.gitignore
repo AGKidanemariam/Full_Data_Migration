@@ -1,0 +1,32 @@
+*.log
+__pycache__
+Atlantic/
+*.db
+.env
+errors.txt
+env
+
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
